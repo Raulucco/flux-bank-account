@@ -1,0 +1,23 @@
+{
+  "name": "react.bank.account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-polyfill": "^6.5.0",
+    "fbemitter": "^2.0.2",
+    "flux": "^2.1.1",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.2"
+  }
+}
